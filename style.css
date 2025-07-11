@@ -263,3 +263,64 @@ gap: 40px;
     background-color:rgb(255, 255, 0);
     color: blue;
  }
+ /* footer section */
+ .footer-contant{
+    background-color:rgb(245, 244, 244);
+    padding: 60px 20px;
+ }
+ .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+    gap: 40px;
+ }
+ .footer-left h1{
+    font-size: 60px;
+   text-align: left;
+   margin-bottom: 30px;
+   margin-top: 70px;
+   font-family: 'Raleway' sans-serif;
+   text-align: center;
+   padding: 50px 70px ;
+ }
+ .footer-from{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    width: 100%;
+ } 
+ .footer-from label{
+    font-weight: bold ;
+    color: #333;
+ }
+.footer-from input,.footer-from textarea
+{
+padding: 10px;
+border: 1 px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+width: 100%;
+}
+.footer-from textarea{
+    min-height: 100px ; resize: vertical;
+}
+.footer-from button{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color:#4e47ff;
+    font-weight:bold;
+    font-size: 16px;
+    color:#ffffff;
+    border: none;
+    padding: 12px 36px;
+    border-radius:10px;
+    cursor: pointer;}
+    .footer-from button:hover{
+        background-color:rgb(255, 255, 0);
+    color: blue;
+    }
+    
