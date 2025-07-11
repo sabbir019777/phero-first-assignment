@@ -1,0 +1,66 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #ffd700;
+}
+
+
+/* Nav styles */
+nav{
+    display: flex;
+    width: 1140px;
+    height: 151px;
+    margin:50px 150px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    gap:auto; 
+}
+
+/* nav title */
+.nav-title{
+    font-weight: 99px;
+    height: 51px;
+    font-weight: bold;
+    color: #4e47ff;
+    font-size: 34px;
+    line-height: 150%;}
+
+    /* nav ul */
+
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    width: 132px;
+    height:48px;
+    gap: 16px;}
+
+    /* signup button */
+    .signup-btn {
+    background-color:#4e47ff;
+    font-weight:bold;
+    font-size: 16px;
+    color:#ffffff;
+    border: none;
+    padding: 12px 36px;
+    border-radius:10px;
+    cursor: pointer;
+}
+.signup-btn:hover{
+    background-color:rgb(255, 255, 0);
+    color: blue;
+}
+
+
