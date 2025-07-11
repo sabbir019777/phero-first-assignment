@@ -226,4 +226,23 @@ gap: 40px;
     font-weight: bold;
     font-size: 15px;
 }
-.reviewers{display: flex;}
+ /*focus better section */
+
+ .small-letter p{
+    width: 487px;
+    height: 50px;
+    text-align: center;
+    font-size: 13px;
+ font-style:normal;
+ text-decoration: none;
+ margin: auto;
+ }
+
+ .images img{
+    max-height: 840px;
+    height: 364px;
+    object-fit: cover;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+ }
