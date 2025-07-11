@@ -1,16 +1,22 @@
 
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+body{
+font-family:'Inter', sans-serif;
+}
+.banner h1{
+    font-family:'Raleway',sans-serif;
 }
 /* shared style */
 .text-primary{
     color: #ffd700;
 }
-
+.header{
+    background-image: url(images/Hero-bg.png);
+     background-size: cover;
+    height: 698px;
+    gap: 158px;
+    position: absolute;
+}
 
 /* Nav styles */
 nav{
@@ -62,5 +68,14 @@ nav ul li a{
     background-color:rgb(255, 255, 0);
     color: blue;
 }
+/* banner style */
 
-
+.banner{ 
+font-weight: bold; 
+font-size: 30px;
+width: ;
+height: 235px;
+gap: 37px;
+text-align: center;
+margin: 109px 268px 152px 268px;
+position: -134 27;}
