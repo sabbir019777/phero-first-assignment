@@ -10,12 +10,16 @@ font-family:'Inter', sans-serif;
 .text-primary{
     color: #ffd700;
 }
+.parent{
+    position: relative;
+    height: 1200px;
+}
 .header{
     background-image: url(images/Hero-bg.png);
      background-size: cover;
     height: 698px;
     gap: 158px;
-    position: absolute;
+
 }
 
 /* Nav styles */
@@ -78,4 +82,38 @@ height: 235px;
 gap: 37px;
 text-align: center;
 margin: 109px 268px 152px 268px;
-position: -134 27;}
+}
+ /* action section */
+
+ .action{
+    padding: 80px;
+ }
+.action-heading{width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+}
+.action .text h2 {
+    font-size: 42px;
+    color: rgb(90, 14, 14);
+    font-family: "Raleway",sans-serif;
+} 
+.action.text p{
+    font-size: 24px;
+    color: #252432;
+    font-family: "Inter" sans-serif;
+    width: 517px;
+    height: 60px;
+    text-align: center;
+}
+
+.action .image img {
+    max-width:70%;
+    border-radius: 20px;
+    border-image: round;
+    height: auto;
+    
+}
