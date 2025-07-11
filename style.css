@@ -1,0 +1,160 @@
+
+
+body{
+font-family:'Inter', sans-serif;
+}
+.banner h1{
+    font-family:'Raleway',sans-serif;
+}
+/* shared style */
+.text-primary{
+    color: #ffd700;
+}
+.parent{
+    position: relative;
+    height: 1200px;
+}
+.header{
+    background-image: url(images/Hero-bg.png);
+     background-size: cover;
+    height: 698px;
+    gap: 158px;
+
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    width: 1140px;
+    height: 151px;
+    margin:50px 150px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    gap:auto; 
+}
+
+/* nav title */
+.nav-title{
+    font-weight: 99px;
+    height: 51px;
+    font-weight: bold;
+    color: #4e47ff;
+    font-size: 34px;
+    line-height: 150%;}
+
+    /* nav ul */
+
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    width: 132px;
+    height:48px;
+    gap: 16px;}
+
+    /* signup button */
+    .signup-btn {
+    background-color:#4e47ff;
+    font-weight:bold;
+    font-size: 16px;
+    color:#ffffff;
+    border: none;
+    padding: 12px 36px;
+    border-radius:10px;
+    cursor: pointer;
+}
+.signup-btn:hover{
+    background-color:rgb(255, 255, 0);
+    color: blue;
+}
+/* banner style */
+
+.banner{ 
+font-weight: bold; 
+font-size: 30px;
+width: ;
+height: 235px;
+gap: 37px;
+text-align: center;
+margin: 109px 268px 152px 268px;
+}
+ /* action section */
+
+ .action{
+    padding: 80px;
+ }
+.action-heading{width: 1140px;
+    height: 328px;
+    margin: 0 auto;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+}
+.action .text h2 {
+    font-size: 42px;
+    color: rgb(90, 14, 14);
+    font-family: "Raleway",sans-serif;
+} 
+.action.text p{
+    font-size: 24px;
+    color: #252432;
+    font-family: "Inter" sans-serif;
+    width: 517px;
+    height: 60px;
+    text-align: center;
+}
+
+.action .image img {
+    max-width:70%;
+    border-radius: 20px;
+    border-image: round;
+    height: auto;
+}
+
+ /* stats section */
+ .stats-section{
+    background-color: #4e47ff1a;
+    padding: 60px 0;
+    border-radius: 20px;
+ }
+ .stats-container{
+    width: 1140px;
+    height: 306px;
+    margin: auto;
+    text-align: center; 
+ }
+ .stats-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family:'Raleway',sans-serif;
+ }
+ .stats-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+ }
+ .stat{
+    padding: 30px;
+    border-radius: 10px;
+    
+ }
+.stat h3 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4e47ff;
+    margin-bottom: 2px;
+    font-family: 'Raleway'sans-serif;
+ }
+ .stat p{
+    font-size: 20px;
+    color: #666;
+    font-family: 'Inter'sans-serif;
+ }
+ 
