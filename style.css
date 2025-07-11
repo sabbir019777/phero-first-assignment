@@ -15,11 +15,10 @@ font-family:'Inter', sans-serif;
     height: 1200px;
 }
 .header{
-    background-image: url(images/Hero-bg.png);
+    background-image:url(Assets/Hero-bg.png);
      background-size: cover;
     height: 698px;
     gap: 158px;
-
 }
 
 /* Nav styles */
@@ -77,12 +76,13 @@ nav ul li a{
 .banner{ 
 font-weight: bold; 
 font-size: 30px;
-width: ;
-height: 235px;
+width: auto;
+height: auto;
 gap: 37px;
 text-align: center;
-margin: 109px 268px 152px 268px;
+* margin: 109px 268px 152px 268px;
 }
+
  /* action section */
 
  .action{
@@ -115,5 +115,46 @@ gap: 40px;
     border-radius: 20px;
     border-image: round;
     height: auto;
-    
 }
+
+
+ /* stats section */
+ .stats-section{
+    background-color: #4e47ff1a;
+    padding: 60px 0;
+    border-radius: 20px;
+ }
+ .stats-container{
+    width: 1140px;
+    height: 306px;
+    margin: auto;
+    text-align: center; 
+ }
+ .stats-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family:'Raleway',sans-serif;
+ }
+ .stats-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+ }
+ .stat{
+    padding: 30px;
+    border-radius: 10px;
+    
+ }
+.stat h3 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4e47ff;
+    margin-bottom: 2px;
+    font-family: 'Raleway'sans-serif;
+ }
+ .stat p{
+    font-size: 20px;
+    color: #666;
+    font-family: 'Inter'sans-serif;
+ }
