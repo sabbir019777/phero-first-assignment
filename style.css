@@ -227,15 +227,17 @@ gap: 40px;
     font-size: 15px;
 }
  /*focus better section */
-
+.focus-area{
+    background-color:hsl(0, 5%, 93%);
+}
  .small-letter p{
-    width: 487px;
+
     height: 50px;
     text-align: center;
     font-size: 13px;
  font-style:normal;
  text-decoration: none;
- margin: auto;
+ text-align: center;
  }
 
  .images img{
@@ -244,5 +246,20 @@ gap: 40px;
     object-fit: cover;
     border-radius: 20px;
     text-align: center;
-    margin-top: 20px;
+ }
+ .started-btn{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color:#4e47ff;
+    font-weight:bold;
+    font-size: 16px;
+    color:#ffffff;
+    border: none;
+    padding: 12px 36px;
+    border-radius:10px;
+    cursor: pointer;
+ }
+ .started-btn:hover{
+    background-color:rgb(255, 255, 0);
+    color: blue;
  }
